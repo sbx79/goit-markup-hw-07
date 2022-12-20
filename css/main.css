@@ -704,7 +704,8 @@ header {
 .regular-customers__link {
   padding: 16px 32px;
   border: 1px solid #afb1b8;
-  border-radius: 4px;
+  border-radius: 4px;  
+  fill: #AFB1B8;
 }
 .regular-customers__link:hover,
 .regular-customers__link:focus {
