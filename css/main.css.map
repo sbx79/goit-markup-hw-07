@@ -15,7 +15,7 @@
     "layouts/_footer-address.scss",
     "layouts/_header-contacts.scss",
     "layouts/_header.scss",
-    "layouts/_studio-hero-section.scss",
+    "layouts/_our-specialty-section.scss",
     "components/_button.scss",
     "layouts/_logo.scss",
     "components/_modal-button.scss",
