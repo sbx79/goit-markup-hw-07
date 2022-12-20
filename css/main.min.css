@@ -326,10 +326,7 @@ header {
   color: #2196f3;
   margin-right: 97px;
 }
-.header__logo:hover,
-.header__logo:focus {
-  color: #1976d2;
-}
+
 .footer-address__logo {
   display: block;
   margin-bottom: 9px;
@@ -341,10 +338,7 @@ header {
   color: #2196f3;
   margin-right: 97px;
 }
-.footer-address__logo:hover,
-.footer-address__logo:focus {
-  color: #1976d2;
-}
+
 .modal-window__close-button {
   width: 30px;
   height: 30px;
