@@ -1,0 +1,37 @@
+@use "../utils/variables";
+.regular-customers__title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;    
+    letter-spacing: 0.03em;
+    color: variables.$main-text-color;
+    margin-bottom: 50px;
+
+}
+
+.regular-customers__list {
+    display: flex;
+    justify-content: center;
+}
+
+.regular-customers__item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.regular-customers__item {
+    width: 170px;        
+}
+
+.regular-customers__link {
+    padding: 16px 32px;
+    border: 1px solid variables.$border-color;
+    border-radius: 4px;
+
+
+&:hover, &:focus{
+    fill: variables.$accent-color;
+    border: 1px solid variables.$accent-color;
+    border-radius: 4px;
+}
+}

@@ -1,0 +1,27 @@
+@use "../utils/variables";
+.footer-address {
+    display: flex;
+    font-style: normal;
+    color: variables.$white-text-color;
+    width: 231px;
+
+    &:hover, &:focus {
+    color: variables.$accent-color;
+    }
+
+}
+
+.footer-address__link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(24/14);
+    color: variables.$white-text-color;
+    width: 231px;
+}
+
+.footer-address__contact {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(24/14);
+    color: variables.$footer-contact-color;
+}

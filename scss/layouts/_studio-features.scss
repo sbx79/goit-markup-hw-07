@@ -1,0 +1,53 @@
+@use "../utils/variables";
+.features__title--hide {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+    }
+
+    .features__list {
+        display: flex;
+        justify-content: center;
+
+ }
+
+    .features__item {
+        width: 270px;
+
+&:not(:last-child) {
+        margin-right: 30px;
+    }
+    }
+
+    .features__image {
+        background-color: rgba(245, 244, 250, 1);
+        padding: 25px 100px;
+        align-items: center;
+        margin-bottom: 30px;
+        border-radius: 4px;
+    }
+
+    .features__title {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: calc(16/14);
+        text-transform: uppercase;
+        color: variables.$main-text-color;
+        margin-bottom: 10px;
+
+    }
+
+    .features__text {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: calc(24/14);
+        letter-spacing: 0.03em;
+        color: variables.$main-title-color;
+    }

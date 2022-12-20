@@ -1,0 +1,14 @@
+@use "../utils/variables";
+.find-us-container {
+    margin-left: 70px;
+}
+
+.find-us__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16/14);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: variables.$white-text-color;
+    padding-bottom: 20px;
+}
